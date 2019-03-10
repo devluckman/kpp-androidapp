@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">share-androidapp</string>
+
+    <string name="title_news_satu">Wisuda Bsi Bakal Meriah</string>
+    <string name="desc_news_satu">Wisuda Bsi Bandung 2019 dikabarkan akan meriah karena akan mendatangkan sejumlah artis papan atas</string>
+
+    <string name="title_news_dua">Seminar Entrepreneur</string>
+    <string name="desc_news_dua">Seminar entrepreneur yang diadakan di aula BSI Bandung, mendorong para mahasiswa untuk menjadi wirausahawan muda</string>
+    <string name="my_name">Lukmanul Hakim</string>
+    <string name="bandung_city">Bandung City</string>
+    <string name="profile">Profile</string>
+    <string name="_453k">453K</string>
+    <string name="followers">followers</string>
+    <string name="_873">873</string>
+    <string name="following">following</string>
+    <string name="email">Email</string>
+    <string name="my_email">locktis.man@gmail.com</string>
+    <string name="phone">Phone</string>
+    <string name="my_number">089686777832</string>
+    <string name="instagram">Instagram</string>
+    <string name="my_ig">lhakim21</string>
+    <string name="facebook">Facebook</string>
+    <string name="my_fb">facebook.com/dev.luckmann</string>
+
+</resources>

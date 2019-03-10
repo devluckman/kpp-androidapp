@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrasi.RegistrasiActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/grad">
+
+        <ImageView
+            android:id="@+id/img_taskbar_back"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/left_arrow"
+            android:layout_width="24dp"
+            android:layout_height="18dp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dp"
+            android:layout_toRightOf="@id/img_taskbar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:text="Registrasi"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_below="@id/layoutbar"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:text="Before you want to sign in, you must \n to Register and fill this form"/>
+
+    <LinearLayout
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/text2"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/regisEditTextEmail"
+            android:layout_marginTop="12dp"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/regisEditTextPassword"
+            android:layout_marginTop="12dp"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/registEditTextRetryPassword"
+            android:layout_marginTop="12dp"
+            android:hint="Retype Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:text="Submit"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="56dp"
+            android:id="@+id/regisButtonSumbit"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@drawable/bg_rounded_4dp"
+            />
+
+        <!--<TextView-->
+        <!--android:layout_marginTop="56dp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="Have an account?"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/login_txt"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/colorPrimaryDark"-->
+        <!--android:text="Login"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="18sp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

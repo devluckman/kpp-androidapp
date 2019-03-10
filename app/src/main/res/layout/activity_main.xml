@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeToolbar"
+        android:background="@drawable/grad"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+        <TextView
+            android:layout_marginLeft="24dp"
+            android:layout_centerVertical="true"
+            android:text="Home"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="24dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginRight="18dp"
+            android:src="@drawable/ic_users"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/imageJumpProfile"
+            />
+    </RelativeLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvListNews"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_below="@+id/relativeToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <ImageView
+        android:id="@+id/imgLogOut"
+        android:layout_margin="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/exit"
+        android:layout_width="80dp"
+        android:layout_height="60dp" />
+
+</RelativeLayout>
