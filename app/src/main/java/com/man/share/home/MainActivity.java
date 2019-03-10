@@ -8,7 +8,6 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
 
 import com.man.share.R;
-import com.man.share.detail.DetailBerita;
 import com.man.share.home.adapter.AdapterRecycler;
 import com.man.share.login.LoginActivity;
 import com.man.share.model.ImageResource;

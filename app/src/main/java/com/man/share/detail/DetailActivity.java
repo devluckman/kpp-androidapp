@@ -13,7 +13,7 @@ import com.man.share.profil.ProfilActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class DetailBerita extends AppCompatActivity {
+public class DetailActivity extends AppCompatActivity {
 
     public static final String EXTRA_TITLE = "extra_title";
     public static final String EXTRA_DESC = "extra_desc";
@@ -51,7 +51,7 @@ public class DetailBerita extends AppCompatActivity {
         });
 
         imgToProfile.setOnClickListener(v -> {
-            startActivity(new Intent(DetailBerita.this, ProfilActivity.class));
+            startActivity(new Intent(DetailActivity.this, ProfilActivity.class));
         });
 
     }

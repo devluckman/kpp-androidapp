@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".profil.ProfilActivity"></activity>
-        <activity android:name=".detail.DetailBerita" />
+        <activity android:name=".detail.DetailActivity" />
         <activity android:name=".splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

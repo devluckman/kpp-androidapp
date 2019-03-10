@@ -1,7 +1,6 @@
 package com.man.share.home.adapter;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.card.MaterialCardView;
 import android.support.v7.widget.RecyclerView;
@@ -10,7 +9,7 @@ import android.widget.TextView;
 
 import com.makeramen.roundedimageview.RoundedImageView;
 import com.man.share.R;
-import com.man.share.detail.DetailBerita;
+import com.man.share.detail.DetailActivity;
 import com.man.share.model.News;
 
 import butterknife.BindView;
@@ -45,10 +44,10 @@ public class ViewHolder extends RecyclerView.ViewHolder {
 
 
         cardNews.setOnClickListener(v -> {
-            Intent intent = new Intent(itemView.getContext(), DetailBerita.class);
-            intent.putExtra(DetailBerita.EXTRA_DESC, news.desc);
-            intent.putExtra(DetailBerita.EXTRA_TITLE, news.title);
-            intent.putExtra(DetailBerita.EXTRA_IMG, news.img);
+            Intent intent = new Intent(itemView.getContext(), DetailActivity.class);
+            intent.putExtra(DetailActivity.EXTRA_DESC, news.desc);
+            intent.putExtra(DetailActivity.EXTRA_TITLE, news.title);
+            intent.putExtra(DetailActivity.EXTRA_IMG, news.img);
             itemView.getContext().startActivity(intent);
         });
 
