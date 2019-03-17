@@ -11,21 +11,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <RelativeLayout
         android:background="@drawable/grad"
         android:layout_width="match_parent"
@@ -51,15 +36,6 @@
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
                 android:textStyle="bold"/>
-
-
-
-
-
-
-
-
-
              <TextView
                  android:textColor="@android:color/white"
                  android:layout_marginTop="4dp"
@@ -67,18 +43,11 @@
                     android:layout_marginLeft="8dp"
                     android:layout_marginBottom="8dp"
                     android:layout_below="@id/textViewTitleNews"
-                    android:text="@string/desc_news_satu"
+                    android:text="@string/desc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/textViewDescNews"
                     android:maxLength="50" />
-
-
-
-
-
-
-
     </RelativeLayout>
 
 

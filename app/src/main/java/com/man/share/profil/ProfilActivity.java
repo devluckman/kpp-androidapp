@@ -24,5 +24,7 @@ public class ProfilActivity extends AppCompatActivity {
             onBackPressed();
             finish();
         });
+
+
     }
 }

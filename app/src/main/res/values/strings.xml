@@ -6,6 +6,7 @@
 
     <string name="title_news_dua">Seminar Entrepreneur</string>
     <string name="desc_news_dua">Seminar entrepreneur yang diadakan di aula BSI Bandung, mendorong para mahasiswa untuk menjadi wirausahawan muda</string>
+
     <string name="my_name">Lukmanul Hakim</string>
     <string name="bandung_city">Bandung City</string>
     <string name="profile">Profile</string>
@@ -21,5 +22,7 @@
     <string name="my_ig">lhakim21</string>
     <string name="facebook">Facebook</string>
     <string name="my_fb">facebook.com/dev.luckmann</string>
+
+    <string name="desc">aksbkjandklasndklmaskmdkasmdlaksdnalsknclaskcnlkasnclaksnclkanscklnasklcnaklscnkl</string>
 
 </resources>

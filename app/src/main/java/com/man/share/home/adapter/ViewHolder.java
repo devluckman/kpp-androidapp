@@ -37,10 +37,12 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         ButterKnife.bind(this, itemView);
     }
 
+
     public void bindView(final News news){
         txtTitle.setText(news.title);
         txtDesc.setText(news.desc);
         imgNews.setImageResource(news.img);
+
 
 
         cardNews.setOnClickListener(v -> {

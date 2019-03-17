@@ -56,25 +56,18 @@
 
         <EditText
             android:id="@+id/regisEditTextEmail"
-            android:layout_marginTop="12dp"
             android:hint="Email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
+            style="@style/edtStyle" />
+
         <EditText
             android:id="@+id/regisEditTextPassword"
-            android:layout_marginTop="12dp"
             android:hint="Password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
+            style="@style/edtStyle" />
+
         <EditText
             android:id="@+id/registEditTextRetryPassword"
-            android:layout_marginTop="12dp"
             android:hint="Retype Password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
+            style="@style/edtStyle" />
 
         <Button
             android:text="Submit"

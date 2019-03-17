@@ -50,8 +50,13 @@ public class RegistrasiActivity extends AppCompatActivity {
             validasi();
         });
 
-
     }
+
+
+
+
+
+
 
     void validasi(){
         String retry;
@@ -59,21 +64,38 @@ public class RegistrasiActivity extends AppCompatActivity {
         mUsers.password = regisEditTextPassword.getText().toString();
         retry = registEditTextRetryPassword.getText().toString();
 
-        if (!TextUtils.isEmpty(mUsers.email) && !TextUtils.isEmpty(mUsers.password) && !TextUtils.isEmpty(retry)){
+        if (!TextUtils.isEmpty(mUsers.email) && !TextUtils.isEmpty(mUsers.password) &&
+                !TextUtils.isEmpty(retry)){
+
             if (retry.equals(mUsers.password)){
                 login();
             } else {
+
                 registEditTextRetryPassword.setError("Password Tidak Cocok");
             }
-        } else if (TextUtils.isEmpty(mUsers.email)){
-            regisEditTextEmail.setError("Isi Email");
 
-        } else if (TextUtils.isEmpty(mUsers.password)){
-            regisEditTextPassword.setError("Password Salah");
-        } else {
+        }  else {
             showToast("Isi Data dengan Lengkap");
         }
+
+
+
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     void login(){
         startActivity(new Intent(RegistrasiActivity.this, MainActivity.class));

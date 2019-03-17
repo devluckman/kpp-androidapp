@@ -45,6 +45,8 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(new Intent(LoginActivity.this, RegistrasiActivity.class));
             finish();
         });
+
+
     }
 
     void validasi(){
