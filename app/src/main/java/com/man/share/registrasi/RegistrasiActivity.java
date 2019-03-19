@@ -52,12 +52,6 @@ public class RegistrasiActivity extends AppCompatActivity {
 
     }
 
-
-
-
-
-
-
     void validasi(){
         String retry;
         mUsers.email = regisEditTextEmail.getText().toString();

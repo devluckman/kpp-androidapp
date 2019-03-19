@@ -31,7 +31,6 @@ public class ViewHolder extends RecyclerView.ViewHolder {
     @BindView(R.id.cardNews)
     MaterialCardView cardNews;
 
-
     public ViewHolder(@NonNull View itemView) {
         super(itemView);
         ButterKnife.bind(this, itemView);
@@ -42,8 +41,6 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         txtTitle.setText(news.title);
         txtDesc.setText(news.desc);
         imgNews.setImageResource(news.img);
-
-
 
         cardNews.setOnClickListener(v -> {
             Intent intent = new Intent(itemView.getContext(), DetailActivity.class);
